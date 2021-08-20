@@ -37,7 +37,7 @@ tags: [jekyll, github pages]
 
 ## Logo & Favicon & Avatar
 
-- Logo & Favicon 从这里生成：[RealFaviconGenerator](https://realfavicongenerator.net/)
+- 从 [RealFaviconGenerator](https://realfavicongenerator.net/) 生成 Logo & Favicon
 - Avatar：http://1057.pub/ghcos/images/avatar01.jpg
 
 ## 使用 VNote 管理博客文章
