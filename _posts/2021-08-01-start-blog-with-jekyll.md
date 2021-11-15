@@ -54,17 +54,27 @@ vx_recycle_bin/
 
 ## 图片管理
 
-> 截至 2021-08-03，VNote 3 还不支持指定图片目录，如果直接将图片存放在 `_post/vx_images` 目录下（默认），Jekyll 无法处理。因此目前暂时先用 GitHub 图床，需要的话再迁移腾讯云 COS。
+> 目前 VNote 3 已支持 GitHub 图床，后续将直接使用 VNote 的功能保存图片，不再使用 PicGo（除非需要提升访问速度，再迁移腾讯云 COS）。
 
 ### 设置 GitHub 图床
 
-单独创建一个 GitHub 仓库 [pysense/ghcos](https://github.com/pysense/ghcos) 用于存储图片，并设置启用 GitHub Pages
+单独创建一个 GitHub 仓库 [pysense/ghcos](https://github.com/pysense/ghcos) 用于存储图片，并设置启用 GitHub Pages。
 
-![](http://1057.pub/ghcos/images/20210803151848.png)
+![](https://raw.githubusercontent.com/pysense/ghcos/master/blog/_posts/2021-08-01-start-blog-with-jekyll.md/543331417229582.png)
+
+### 通过 PicGo 上传图片到 GitHub
 
 配合 [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) 上传图片
 
-![](http://1057.pub/ghcos/images/20210803151632.png)
+![](https://raw.githubusercontent.com/pysense/ghcos/master/blog/_posts/2021-08-01-start-blog-with-jekyll.md/301712017237615.png)
+
+### 通过 VNote 上传图片到 GitHub（当前采用此方法）
+
+1）配置 GitHub 图床
+
+![](https://raw.githubusercontent.com/pysense/ghcos/master/blog/_posts/2021-08-01-start-blog-with-jekyll.md/533962517226839.png)
+
+2）在编辑器工具栏选择图床为 GitHub，之后粘贴到 VNote 的图片将自动上传到配置好的 GitHub 仓库。
 
 ## 介绍 Jekyll 的文章
 
