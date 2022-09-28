@@ -24,7 +24,7 @@ timezone: Asia/Shanghai
 
 title: 1057's Blog                          # the main title
 
-tagline: 学习，解决问题，记录   # it will display as the sub-title
+tagline: Live a little   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
